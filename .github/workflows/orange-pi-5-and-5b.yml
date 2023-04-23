@@ -27,7 +27,8 @@ jobs:
     - name: Checkout CustomPiOS
       uses: actions/checkout@v2
       with:
-        repository: 'guysoft/CustomPiOS'
+        repository: 'dirkhh/CustomPiOS'
+        ref: 'addBtrfsSupport'
         path: CustomPiOS
 
     - name: Checkout Project Repository
